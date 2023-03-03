@@ -31,9 +31,13 @@ container.addEventListener("mousemove", function (event) {
 
     if(r.length === 1){
       r = "0" + r
-    } else if (g.length === 1 ){
+    } 
+    
+    if (g.length === 1 ){
       g = "0" + g
-    } else if (b.length === 1){
+    } 
+    
+    if (b.length === 1){
       b = "0" + b
     }
 
